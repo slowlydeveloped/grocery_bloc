@@ -23,7 +23,7 @@ class _MyWishlistState extends State<MyWishlist> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Products Page"),
+        title: const Text("Products Page"),
       ),
       body: BlocConsumer<WishlistBlocBloc, WishlistBlocState>(
         bloc: wishlistBlocBloc,
